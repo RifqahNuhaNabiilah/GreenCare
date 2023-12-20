@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlantType">
+
+
+
+    <ImageView android:id="@+id/back"
+        android:src="@drawable/desain_tanpa_judul__1__1"
+        android:contentDescription="desain_tanpa_judul__1__1"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+
+    <View
+        android:id="@+id/bg1_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.3"
+        android:background="@drawable/bg1_1_shape" />
+
+    <View
+        android:id="@+id/kotakLavender"
+        android:layout_width="118dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/rectangle_2_shape"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lavender"
+        android:layout_width="82dp"
+        android:layout_height="26.5dp"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:gravity="center"
+        android:text="@string/lavender_string"
+        android:textColor="@color/lavender_color"
+        android:textSize="15sp"
+        app:layout_constraintTop_toTopOf="@id/kotakLavender"
+        app:layout_constraintStart_toStartOf="@id/kotakLavender"
+        />
+
+    <View
+        android:id="@+id/rectangle_2"
+        android:layout_width="118dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rectangle_2_shape"
+        app:layout_constraintTop_toBottomOf="@id/rectangle_3"
+        app:layout_constraintStart_toStartOf="@id/rectangle_3"
+        />
+
+    <TextView
+        android:id="@+id/peace_lily"
+        android:layout_width="82dp"
+        android:layout_height="26.5dp"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginStart="15dp"
+        android:gravity="center"
+        android:text="@string/peace_lily_string"
+        android:textColor="@color/lavender_color"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="@id/rectangle_2"
+        app:layout_constraintTop_toTopOf="@id/rectangle_2" />
+
+    <View
+        android:id="@+id/rectangle_4"
+        android:layout_width="118dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/_rectangle_1_shape"
+
+        app:layout_constraintStart_toStartOf="@id/kotakLavender"
+        app:layout_constraintTop_toBottomOf="@id/kotakLavender"
+        />
+
+    <TextView
+        android:id="@+id/sukulen"
+        android:layout_width="70dp"
+        android:layout_height="34.5dp"
+        android:layout_gravity="center_horizontal|center"
+        android:gravity="center"
+        android:layout_marginStart="20dp"
+        android:text="@string/sukulen_string"
+        android:textColor="@color/sukulen_color"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="@id/rectangle_4"
+        app:layout_constraintTop_toTopOf="@id/rectangle_4" />
+
+    <View
+        android:id="@+id/rectangle_5"
+        android:layout_width="118dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/_rectangle_1_shape"
+        app:layout_constraintTop_toBottomOf="@id/rectangle_2"
+        app:layout_constraintStart_toStartOf="@id/rectangle_2"
+        />
+    <ImageView
+        android:id="@+id/tn6_width_800_1"
+        android:layout_width="58dp"
+        android:layout_height="50dp"
+        android:contentDescription="tn6_width_800_1"
+        android:src="@drawable/tn6_width_800_1"
+        app:layout_constraintStart_toStartOf="@id/kaktus"
+        app:layout_constraintTop_toBottomOf="@id/kaktus" />
+
+
+
+    <View
+        android:id="@+id/rectangle_6"
+        android:layout_width="118dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/_rectangle_1_shape"
+        app:layout_constraintTop_toBottomOf="@id/rectangle_7"
+        app:layout_constraintStart_toStartOf="@id/rectangle_7"
+        />
+
+    <View
+        android:id="@+id/rectangle_7"
+        android:layout_width="113dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rectangle_2_shape"
+        app:layout_constraintTop_toBottomOf="@id/rectangle_4"
+        app:layout_constraintStart_toStartOf="@id/rectangle_4"
+        />
+    <TextView
+        android:id="@+id/pothos"
+        android:layout_width="82dp"
+        android:layout_height="26.5dp"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginStart="10dp"
+        android:gravity="center"
+        android:text="@string/pothos_string"
+        android:textColor="@color/lavender_color"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="@id/rectangle_7"
+        app:layout_constraintTop_toTopOf="@id/rectangle_7" />
+
+
+    <View
+        android:id="@+id/rectangle_8"
+        android:layout_width="118dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rectangle_2_shape"
+        app:layout_constraintTop_toBottomOf="@id/rectangle_5"
+        app:layout_constraintStart_toStartOf="@id/rectangle_5"
+        />
+
+    <TextView
+        android:id="@+id/choose_your_plant_"
+        android:layout_width="500dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="@string/choose_your_plant__string"
+        android:textColor="@color/lavender_color"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/tn1_width_800_1"
+        android:layout_width="58dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:contentDescription="tn1_width_800_1"
+        android:src="@drawable/tn1_width_800_1"
+        app:layout_constraintStart_toStartOf="@id/kotakLavender"
+        app:layout_constraintTop_toBottomOf="@id/lavender"  />
+
+    <ImageView
+        android:id="@+id/tn5_width_800_1"
+        android:layout_width="58dp"
+        android:layout_height="50dp"
+        android:contentDescription="tn5_width_800_1"
+        android:src="@drawable/tn5_width_800_1"
+        android:layout_marginStart="10dp"
+        app:layout_constraintStart_toStartOf="@id/sukulen"
+        app:layout_constraintTop_toBottomOf="@id/sukulen" />
+
+    <ImageView
+        android:id="@+id/tn4_width_800_1"
+        android:layout_width="58dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:contentDescription="tn4_width_800_1"
+        android:src="@drawable/tn4_width_800_1"
+        app:layout_constraintStart_toStartOf="@id/peace_lily"
+        app:layout_constraintTop_toBottomOf="@id/peace_lily" />
+
+    <ImageView
+        android:id="@+id/tn8_width_800_1"
+        android:layout_width="58dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="15dp"
+        android:contentDescription="tn8_width_800_1"
+        android:src="@drawable/tn8_width_800_1"
+        app:layout_constraintStart_toStartOf="@id/pothos"
+        app:layout_constraintTop_toBottomOf="@id/pothos" />
+
+    <TextView
+        android:id="@+id/heart_leaf_philodendron"
+        android:layout_width="117.2dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal|center"
+        android:gravity="center"
+        android:text="@string/heart_leaf_philodendron_string"
+        android:textColor="@color/sukulen_color"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@id/rectangle_6"
+        app:layout_constraintTop_toTopOf="@id/rectangle_6" />
+
+    <ImageView
+        android:id="@+id/tn7_width_800_1"
+        android:layout_width="58dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:contentDescription="tn7_width_800_1"
+        android:src="@drawable/tn7_width_800_1"
+        app:layout_constraintStart_toStartOf="@id/heart_leaf_philodendron"
+        app:layout_constraintTop_toBottomOf="@id/heart_leaf_philodendron" />
+
+    <ImageView
+        android:id="@+id/peperomia_watermelon_1"
+        android:layout_width="58dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:contentDescription="peperomia_watermelon_1"
+        android:src="@drawable/peperomia_watermelon_1"
+        app:layout_constraintStart_toStartOf="@id/peperomia_watermelon"
+        app:layout_constraintTop_toBottomOf="@id/peperomia_watermelon" />
+
+    <TextView
+        android:id="@+id/peperomia_watermelon"
+        android:layout_width="119.2dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal|center"
+        android:gravity="center"
+        android:text="@string/peperomia_watermelon_string"
+        android:textColor="@color/lavender_color"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@id/rectangle_8"
+        app:layout_constraintTop_toTopOf="@id/rectangle_8" />
+
+    <View
+        android:id="@+id/rectangle_3"
+        android:layout_width="118dp"
+        android:layout_height="86dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/_rectangle_1_shape"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/tn2_width_800_2"
+        android:layout_width="56dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="30dp"
+
+        android:contentDescription="tn2_width_800_2"
+        android:src="@drawable/tn2_width_800_2"
+        app:layout_constraintStart_toStartOf="@id/rectangle_3"
+        app:layout_constraintTop_toBottomOf="@id/sansevieria" />
+
+    <TextView
+        android:id="@+id/sansevieria"
+        android:layout_width="100dp"
+        android:layout_height="34.5dp"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginStart="10dp"
+        android:gravity="center"
+        android:text="@string/sansevieria_string"
+        android:textColor="@color/sukulen_color"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="@id/rectangle_3"
+        app:layout_constraintTop_toTopOf="@id/rectangle_3" />
+
+    <TextView
+        android:id="@+id/kaktus"
+        android:layout_width="46dp"
+        android:layout_height="34.5dp"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginLeft="30dp"
+        android:gravity="center"
+        android:text="@string/kaktus_string"
+        android:textColor="@color/sukulen_color"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="@id/rectangle_5"
+        app:layout_constraintTop_toTopOf="@id/rectangle_5" />
+
+    <!-- Place your other views and widgets here with proper constraints -->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

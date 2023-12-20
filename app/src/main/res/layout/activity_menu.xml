@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+    <ImageView
+        android:id="@+id/_7609daadd5384c80ba3b612a3017bf7c_1"
+        android:src="@drawable/_7609daadd5384c80ba3b612a3017bf7c_1"
+        android:contentDescription="background_menu"
+        android:alpha="0.5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintDimensionRatio="16:9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+        <View
+            android:id="@+id/_rectangle_planttype"
+            android:layout_width="300dp"
+            android:layout_height="99dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/rectangle_2_shape"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/hello__user_" />
+
+
+        <View   android:id="@+id/_rectangle_aboutus"
+            android:background="@drawable/rectangle_2_shape"
+            android:layout_marginTop="100dp"
+            android:layout_width="300dp"
+            android:layout_height="102dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/_rectangle_plantcare" />
+    />
+
+        <TextView android:id="@+id/jadi_kepoan_itu_bagus_kok__apalagi_kalau_kamu_mau_tau_lebih_mengenai_pengembang_aplikasi_ini_hehe__3"
+            android:textStyle="italic"
+            android:textSize="12sp"
+            android:textColor="@color/_bg__menu_ek2_color"
+
+            android:layout_marginTop="30dp"
+            android:layout_width="184.2dp"
+            android:layout_height="67.2dp"
+            android:text="@string/jadi_kepoan_itu_bagus_kok__apalagi_kalau_kamu_mau_tau_lebih_mengenai_pengembang_aplikasi_ini_hehe__3_string"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/_rectangle_aboutus"
+            app:layout_constraintTop_toTopOf="@id/_rectangle_aboutus" />
+
+
+        <TextView android:id="@+id/about_us"
+            android:layout_gravity="center_horizontal|center"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textColor="@color/about_us_color"
+            android:layout_width="172.4dp"
+            android:layout_height="46.4dp"
+            android:layout_marginStart="70dp"
+            android:text="@string/about_us_string"
+            app:layout_constraintStart_toStartOf="@id/_rectangle_aboutus"
+            app:layout_constraintTop_toTopOf="@id/_rectangle_aboutus" />
+
+    />
+
+        <View   android:id="@+id/_rectangle_plantcare"
+            android:background="@drawable/_rectangle_1_shape"
+
+            android:layout_marginTop="100dp"
+            android:layout_width="300dp"
+            android:layout_height="102dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/_rectangle_planttype" />
+    />
+
+        <TextView android:id="@+id/mulai_rawat_tanaman_mu_dan_jangan_lupa_mencatat_perkembangannya_ya_"
+            android:textStyle="italic"
+            android:textSize="12sp"
+            android:textColor="@color/_bg__menu_ek2_color"
+            android:layout_width="184.2dp"
+            android:layout_height="67.2dp"
+            android:layout_marginStart="40dp"
+             android:layout_marginTop="40dp"
+            android:text="@string/mulai_rawat_tanaman_mu_dan_jangan_lupa_mencatat_perkembangannya_ya__string"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/_rectangle_plantcare"
+            app:layout_constraintTop_toTopOf="@id/_rectangle_plantcare" />
+
+    />
+
+        <TextView android:id="@+id/plant_care"
+            android:layout_gravity="center_horizontal|center"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:layout_marginStart="-30dp"
+            android:textColor="@color/plant_care_color"
+            android:layout_width="172.4dp"
+            android:layout_height="46.4dp"
+            android:text="@string/plant_care_string"
+            app:layout_constraintStart_toStartOf="@id/mulai_rawat_tanaman_mu_dan_jangan_lupa_mencatat_perkembangannya_ya_"
+            app:layout_constraintTop_toTopOf="@id/_rectangle_plantcare" />
+
+    />
+
+
+        <ImageView android:id="@+id/hipwee_huy_phan_dm317cbttyy_unsplash_2_1"
+            android:src="@drawable/hipwee_huy_phan_dm317cbttyy_unsplash_2_1"
+            android:contentDescription="hipwee_huy_phan_dm317cbttyy_unsplash_2_1"
+            android:layout_width="68.07dp"
+            android:layout_height="69.14dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="@id/_rectangle_planttype"
+            app:layout_constraintTop_toTopOf="@id/_rectangle_planttype" />
+    />
+
+        <ImageView android:id="@+id/_5fec0f49619be_1"
+            android:src="@drawable/_5fec0f49619be_1"
+            android:contentDescription="_5fec0f49619be_1"
+            android:layout_marginTop="20dp"
+            android:layout_width="66dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="30dp"
+            app:layout_constraintStart_toStartOf="@id/_rectangle_plantcare"
+            app:layout_constraintTop_toTopOf="@id/_rectangle_plantcare" />
+    />
+
+        <ImageView android:id="@+id/desain_tanpa_judul__3__1"
+            android:src="@drawable/desain_tanpa_judul__1__1"
+            android:contentDescription="desain_tanpa_judul__3__1"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_width="31dp"
+            android:layout_height="32dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+    />
+
+        <ImageView android:id="@+id/greencare_1"
+            android:src="@drawable/greencare_1"
+            android:contentDescription="greencare_1"
+            android:layout_width="73.31dp"
+            android:layout_height="69.7dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="10dp"
+            app:layout_constraintStart_toStartOf="@id/_rectangle_aboutus"
+            app:layout_constraintTop_toTopOf="@id/_rectangle_aboutus" />
+    />
+
+        <TextView android:id="@+id/plant_type"
+            android:layout_gravity="center_horizontal|center"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textColor="@color/about_us_color"
+            android:layout_width="172.4dp"
+            android:layout_height="46.4dp"
+            android:text="@string/plant_type_string"
+            app:layout_constraintStart_toStartOf="@id/plant_care"
+            app:layout_constraintTop_toTopOf="@id/_rectangle_planttype" />
+
+    />
+
+        <TextView android:id="@+id/pilih_jenis_tanaman_mu__dan_dapatkan_informasi_menarik_beserta_cara_perawatan_tanaman_mu_"
+            android:textStyle="italic"
+            android:textSize="12sp"
+            android:textColor="@color/_bg__menu_ek2_color"
+            android:layout_width="184.2dp"
+            android:layout_height="67.2dp"
+            android:layout_marginTop="-10dp"
+            android:text="@string/pilih_jenis_tanaman_mu__dan_dapatkan_informasi_menarik_beserta_cara_perawatan_tanaman_mu__string"
+            app:layout_constraintStart_toStartOf="@id/mulai_rawat_tanaman_mu_dan_jangan_lupa_mencatat_perkembangannya_ya_"
+            app:layout_constraintTop_toBottomOf="@id/plant_type" />
+
+    />
+
+
+        <TextView
+            android:id="@+id/hello__user_"
+            android:layout_width="300dp"
+            android:layout_height="70.8dp"
+            android:layout_marginTop="80dp"
+            android:layout_gravity="center_horizontal|center"
+            android:gravity="center"
+            android:text="@string/hello__user__string"
+            android:textColor="@color/about_us_color"
+            android:textSize="48sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

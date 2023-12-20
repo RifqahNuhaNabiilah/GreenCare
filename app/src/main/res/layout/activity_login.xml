@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+    <ImageView
+        android:id="@+id/green_and_orange_minimal_create_an_account_mobile_prototype__1__1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:contentDescription="green_and_orange_minimal_create_an_account_mobile_prototype__1__1"
+        android:scaleType="centerCrop"
+        app:layout_constraintDimensionRatio="16:9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bg_login" />
+    <ImageView
+        android:id="@+id/greencare__1__1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="50dp"
+        android:contentDescription="greencare__1__1"
+        app:layout_constraintDimensionRatio="400:300"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/greencare__1__1" />
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="5dp"
+        android:contentDescription="desain_tanpa_judul__1__1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/desain_tanpa_judul__1__1" />
+
+
+
+    <ImageButton
+        android:id="@+id/_rectangle_login"
+        android:layout_width="329dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="700dp"
+        android:background="@drawable/_rectangle_3_shape"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="134.4dp"
+        android:layout_height="25.4dp"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="705dp"
+        android:gravity="center"
+        android:text="@string/login_string"
+        android:textColor="@color/_bg__login_page_ek2_color"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/_rectangle_email"
+        android:layout_width="329dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="535dp"
+        android:background="@drawable/_rectangle_5_shape"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:hint="@string/email_string"
+        android:textColorHint="@color/password_color"
+        android:textColor="@color/welcome_back_color"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:id="@+id/_rectangle_pw"
+        android:layout_width="329dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="590dp"
+        android:background="@drawable/_rectangle_5_shape"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:hint="@string/password_string"
+        android:textColorHint="@color/password_color"
+        android:textColor="@color/welcome_back_color"
+        android:textAlignment="center"
+
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

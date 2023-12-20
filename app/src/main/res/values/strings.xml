@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- utama strings -->
+
+    <string name="app_name">page 1</string>
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="login_string">Login</string>
+    <string name="sign_up_string">Sign up</string>
+    <string name="email_string">Email</string>
+    <string name="password_string">Password</string>
+    <string name="login_here_string">Alredy Have Account?Login here</string>
+    <string name="full_name_string">Full Name</string>
+    <string name="confirm_password_string">Confirm Password</string>
+    <string name="welcome_back_string">WELCOME BACK!</string>
+    <string name="jadi_kepoan_itu_bagus_kok__apalagi_kalau_kamu_mau_tau_lebih_mengenai_pengembang_aplikasi_ini_hehe__3_string">Jadi kepoan itu bagus kok, apalagi kalau kamu mau tau lebih mengenai pengembang aplikasi ini hehe :3</string>
+    <string name="about_us_string">About Us</string>
+    <string name="mulai_rawat_tanaman_mu_dan_jangan_lupa_mencatat_perkembangannya_ya__string">mulai rawat tanaman mu dan jangan lupa mencatat perkembangannya ya!</string>
+    <string name="plant_care_string">Plant Care</string>
+    <string name="plant_type_string">Plant Type</string>
+    <string name="pilih_jenis_tanaman_mu__dan_dapatkan_informasi_menarik_beserta_cara_perawatan_tanaman_mu__string">pilih jenis tanaman mu, dan dapatkan informasi menarik beserta cara perawatan tanaman mu!</string>
+    <string name="hello__user__string">hello!</string>
+    <string name="lavender_string">Lavender</string>
+    <string name="peace_lily_string">Peace Lily</string>
+    <string name="sukulen_string">Sukulen</string>
+    <string name="pothos_string">Pothos</string>
+    <string name="choose_your_plant__string">Choose Your Plant!</string>
+    <string name="kaktus_string">Kaktus</string>
+    <string name="heart_leaf_philodendron_string">Heart Leaf Philodendron</string>
+    <string name="peperomia_watermelon_string">Peperomia Watermelon</string>
+    <string name="sansevieria_string">Sansevieria</string>
+    <string name="back_menu">Back to Menu</string>
+    <string name="infoLily">Perawatan bunga water lily melibatkan penempatan tanaman di dalam kolam air yang mendapat sinar matahari langsung selama minimal enam jam sehari. Pastikan kedalaman air di kolam mencapai setidaknya 30 hingga 60 cm agar tanaman dapat tumbuh dengan baik. Pupuk terapung khusus untuk water lily dapat diberikan setiap empat hingga enam minggu sekali selama musim tumbuh, sementara dedaunan yang layu atau mati dapat dihapus secara teratur. Untuk mengendalikan pertumbuhan alga, sebaiknya tambahkan tanaman air pengikis seperti anacharis. Selain itu, pastikan tidak ada kotoran yang mengendap di dasar kolam agar air tetap bersih. Jangan lupa untuk memangkas dedaunan yang sudah tua dan menjaga suhu air agar tetap optimal untuk pertumbuhan water lily</string>
+    <string name="plantcare">Caring For Your Lavender Plants</string>
+    <string name="save">Save</string>
+
+
+
+
+
+</resources>
