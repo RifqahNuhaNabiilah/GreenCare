@@ -27,17 +27,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
-    <ImageView android:id="@+id/poster"
-        android:background="@drawable/poster"
-        android:layout_marginTop="100dp"
+
+    <ImageView
+        android:id="@+id/poster"
         android:layout_width="295dp"
         android:layout_height="393dp"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/poster"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"/>
-
-
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.136" />
 
     <ImageButton
         android:id="@+id/_rectangle_2"
